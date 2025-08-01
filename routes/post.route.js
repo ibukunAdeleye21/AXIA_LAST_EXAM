@@ -8,10 +8,10 @@ const multipleFieldUpload = upload.fields([
     {name: "displayPix", maxCount: 2}
 ]);
 
-route.post("/upload-singleFile", upload.single("previewPix"), uploadSingleFile);
+route.post("/upload-single", upload.single("previewPix"), uploadSingleFile);
 
-route.post("/upload-arrayOfFiles", upload.array("previewPix", 2), uploadArrayOfFiles);
+route.post("/upload-array", upload.array("previewPix", 2), uploadArrayOfFiles);
 
-route.post("/upload-multipleFieldWithArrayOfFile", multipleFieldUpload, uploadMultipleFieldWithArrayOfFiles);
+route.post("/upload-multiple", multipleFieldUpload, uploadMultipleFieldWithArrayOfFiles);
 
 module.exports = route;
