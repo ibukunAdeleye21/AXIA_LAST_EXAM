@@ -1,0 +1,104 @@
+[2025-08-01 20:03:05] ERROR: Error creating post: Must supply api_key
+[2025-08-01 20:03:42] ERROR: Error creating post: Must supply api_key
+[2025-08-01 20:04:12] ERROR: Error creating post: Must supply api_key
+[2025-08-01 20:07:10] ERROR: Error creating post: post validation failed: displayPix: Path `displayPix` is required.
+[2025-08-01 20:08:18] ERROR: Error creating post: post validation failed: previewPix: Path `previewPix` is required., displayPix: Path `displayPix` is required., description: Path `description` is required., title: Path `title` is required.
+[2025-08-01 20:10:56] ERROR: Error creating post: post validation failed: displayPix: Path `displayPix` is required.
+[2025-08-01 20:36:16] ERROR: Error creating post with files: arrayOfUploadedResults.add is not a function
+[2025-08-01 20:37:42] ERROR: Error creating post with files: post validation failed: previewPix.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    asset_id: 'caa14f5e188348ff21d9db27dd148bec',\n" +
+  "    public_id: 'v4ypul2axpc9b2oj3nxy',\n" +
+  '    version: 1754077060,\n' +
+  "    version_id: 'd4582f6fe2314c707c331913e5abe108',\n" +
+  "    signature: '67ac7f9abbb2de410efdae4162031ec91cac2be3',\n" +
+  '    width: 3060,\n' +
+  '    height: 4080,\n' +
+  "    format: 'jpg',\n" +
+  "    resource_type: 'image',\n" +
+  "    created_at: '2025-08-01T19:37:40Z',\n" +
+  '    tags: [],\n' +
+  '    bytes: 2685098,\n' +
+  "    type: 'upload',\n" +
+  "    etag: '54a1d2f693bb50bfb79215fea4c503f3',\n" +
+  '    placeholder: false,\n' +
+  "    url: 'http://res.cloudinary.com/dvisr0wcx/image/upload/v1754077060/v4ypul2axpc9b2oj3nxy.jpg',\n" +
+  "    secure_url: 'https://res.cloudinary.com/dvisr0wcx/image/upload/v1754077060/v4ypul2axpc9b2oj3nxy.jpg',\n" +
+  "    asset_folder: '',\n" +
+  "    display_name: 'v4ypul2axpc9b2oj3nxy',\n" +
+  "    original_filename: '768d206efa9075f76dfba06016d0e367',\n" +
+  "    api_key: '338682428221625'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    asset_id: 'ce792f1c9504afe6b8110852d770b1eb',\n" +
+  "    public_id: 'i56ljellgcx1kplq2fdw',\n" +
+  '    version: 1754077062,\n' +
+  "    version_id: 'cdfcb267f443f2c24c7fb1664a2b7397',\n" +
+  "    signature: '00e073abc7dc885bc3ed2638c505d5b41ed15f25',\n" +
+  '    width: 712,\n' +
+  '    height: 430,\n' +
+  "    format: 'jpg',\n" +
+  "    resource_type: 'image',\n" +
+  "    created_at: '2025-08-01T19:37:42Z',\n" +
+  '    tags: [],\n' +
+  '    bytes: 68199,\n' +
+  "    type: 'upload',\n" +
+  "    etag: 'a705e87bc269745437f2c6996e46e416',\n" +
+  '    placeholder: false,\n' +
+  "    url: 'http://res.cloudinary.com/dvisr0wcx/image/upload/v1754077062/i56ljellgcx1kplq2fdw.jpg',\n" +
+  "    secure_url: 'https://res.cloudinary.com/dvisr0wcx/image/upload/v1754077062/i56ljellgcx1kplq2fdw.jpg',\n" +
+  "    asset_folder: '',\n" +
+  "    display_name: 'i56ljellgcx1kplq2fdw',\n" +
+  "    original_filename: '768e70fcd27415c92aac34208285aa6d',\n" +
+  "    api_key: '338682428221625'\n" +
+  '  }\n' +
+  ']" (type string) at path "previewPix.0" because of "CastError"
+[2025-08-01 20:41:43] ERROR: Error creating post with files: post validation failed: previewPix.0: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    asset_id: '7ce6954072c78ca0ae142bca1aac9a0c',\n" +
+  "    public_id: 'trrkht61qyjfaxintp5r',\n" +
+  '    version: 1754077301,\n' +
+  "    version_id: '5b5252d6fd86aaaad3a6e5f36e8219db',\n" +
+  "    signature: '11570b3cbc15ea73a5967532c2933371e2e2c842',\n" +
+  '    width: 3060,\n' +
+  '    height: 4080,\n' +
+  "    format: 'jpg',\n" +
+  "    resource_type: 'image',\n" +
+  "    created_at: '2025-08-01T19:41:41Z',\n" +
+  '    tags: [],\n' +
+  '    bytes: 2685098,\n' +
+  "    type: 'upload',\n" +
+  "    etag: '54a1d2f693bb50bfb79215fea4c503f3',\n" +
+  '    placeholder: false,\n' +
+  "    url: 'http://res.cloudinary.com/dvisr0wcx/image/upload/v1754077301/trrkht61qyjfaxintp5r.jpg',\n" +
+  "    secure_url: 'https://res.cloudinary.com/dvisr0wcx/image/upload/v1754077301/trrkht61qyjfaxintp5r.jpg',\n" +
+  "    asset_folder: '',\n" +
+  "    display_name: 'trrkht61qyjfaxintp5r',\n" +
+  "    original_filename: 'bcb566f3053b27eba83d7cb9d0038ddb',\n" +
+  "    api_key: '338682428221625'\n" +
+  '  },\n' +
+  '  {\n' +
+  "    asset_id: '4da8719c323e0d04d522db623ea521a6',\n" +
+  "    public_id: 'qs6a9s4d4x4wdbflfpya',\n" +
+  '    version: 1754077302,\n' +
+  "    version_id: 'b81d45fbde24fb25044f2e02912aeafa',\n" +
+  "    signature: '9216624eb746373d8719017d854fc0f383ee5689',\n" +
+  '    width: 712,\n' +
+  '    height: 430,\n' +
+  "    format: 'jpg',\n" +
+  "    resource_type: 'image',\n" +
+  "    created_at: '2025-08-01T19:41:42Z',\n" +
+  '    tags: [],\n' +
+  '    bytes: 68199,\n' +
+  "    type: 'upload',\n" +
+  "    etag: 'a705e87bc269745437f2c6996e46e416',\n" +
+  '    placeholder: false,\n' +
+  "    url: 'http://res.cloudinary.com/dvisr0wcx/image/upload/v1754077302/qs6a9s4d4x4wdbflfpya.jpg',\n" +
+  "    secure_url: 'https://res.cloudinary.com/dvisr0wcx/image/upload/v1754077302/qs6a9s4d4x4wdbflfpya.jpg',\n" +
+  "    asset_folder: '',\n" +
+  "    display_name: 'qs6a9s4d4x4wdbflfpya',\n" +
+  "    original_filename: '0487917acfb5d48009b9368a159c04c8',\n" +
+  "    api_key: '338682428221625'\n" +
+  '  }\n' +
+  ']" (type string) at path "previewPix.0" because of "CastError"
+[2025-08-01 21:31:03] ERROR: Error creating post with files: Cannot access 'file' before initialization
